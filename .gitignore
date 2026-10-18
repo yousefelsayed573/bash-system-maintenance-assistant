@@ -1,0 +1,30 @@
+# Generated backup files and logs should not be committed.
+backup-*/
+*.bak
+*.log
+
+# Local configuration, credentials, and private keys.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.kubeconfig
+
+# Local archives and transfer bundles.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Editor and operating system artifacts.
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
